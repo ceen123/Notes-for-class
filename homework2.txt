@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="daxue">
+        <meta name="keywords" content="金門大學'資工系'蔡宜潔'華江高中'華江'金門'江翠國中'江翠">
+        <title>HW1.02</title>
+        <link rel="stylesheet" href="css001.css">
+    </head>
+<body>
+    <ul>
+        <li><a class="active">table<iframe src="clock.html" width="75em" height="30em"frameborder="0"
+            scrolling="no"></iframe></a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#hobby">Hobby</a></li>
+        <li><a href="#game">Game</a></li>
+        <li><a href="#homework">Homework</a></li>
+    </ul>
+
+    <div> 
+        <id="top">
+    <P>To:...<input type='text' name="name" id="name">
+        <p>From:
+        <input type='text' name="name" id="name">
+            gender：<INPUT type=radio name=sex id=女>female<INPUT type=radio name=sex value=男 size="40">male</p>
+        <p>age:
+        <select name=edu >
+        <option>15
+        <option>16
+        <option>17
+        <option>18
+        <option>19
+        <option>20
+        <option>21
+        <option>22
+        <option>23
+        </select>
+        <p><TEXTAREA NAME="comment" ROWS=35 COLS=100 wrap=physical>enter text </TEXTAREA></p>
+        <input type='button' name='submit' value='Done' onclick='data();' />
+    </form>
+    <h6><center><a href="#top">Top</a></center></h6>
+</div>
+<script>
+function data(){
+    const nameElement = document.getElementById("name");
+    const name = nameElement.value;
+    alert(name+' Hello!');
+}
+</script>
+    </body>
+</html>
